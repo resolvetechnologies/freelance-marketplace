@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -50,7 +51,7 @@ export default function Home() {
                                     <div className="col-auto px-0">
                                         <div className="d-flex align-items-center justify-content-between">
                                             <div className="logos">
-                                                <a className="header-logo logo2" href="/"><img src="images/header-logo3.svg" alt="Header Logo" /></a>
+                                                <Link className="header-logo logo2" href="/"><img src="images/header-logo3.svg" alt="Header Logo" /></Link>
                                             </div>
 
                                             {/* <!-- Responsive Menu Structure--> */}
@@ -59,10 +60,10 @@ export default function Home() {
                                     </div>
                                     <div className="col-auto px-0">
                                         <div className="d-flex align-items-center">
-                                            <a className="login-info" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><span className="flaticon-loupe"></span></a>
-                                            <a className="login-info mx10-lg mx30" href="./page-become-seller"><span className="d-none d-xl-inline-block">Become a</span> Seller</a>
-                                            <a className="login-info mr10-lg mr30" href="./page-login">Sign in</a>
-                                            <a className="ud-btn btn-thm add-joining" href="./page-register">Join</a>
+                                            <Link className="login-info" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><span className="flaticon-loupe"></span></Link>
+                                            <Link className="login-info mx10-lg mx30" href="./page-become-seller"><span className="d-none d-xl-inline-block">Become a</span> Seller</Link>
+                                            <Link className="login-info mr10-lg mr30" href="./page-login">Sign in</Link>
+                                            <Link className="ud-btn btn-thm add-joining" href="./page-register">Join</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -98,10 +99,10 @@ export default function Home() {
                             <div className="header bdrb1">
                                 <div className="menu_and_widgets">
                                     <div className="mobile_menu_bar d-flex justify-content-between align-items-center">
-                                        <a className="mobile_logo" href="#"><img src="images/header-logo-dark.svg" alt="" /></a>
+                                        <Link className="mobile_logo" href="#"><img src="images/header-logo-dark.svg" alt="" /></Link>
                                         <div className="right-side text-end">
-                                            <a className="" href="./page-login">join</a>
-                                            <a className="menubar ml30" href="#menu"><img src="images/mobile-dark-nav-icon.svg" alt="" /></a>
+                                            <Link className="" href="./page-login">join</Link>
+                                            <Link className="menubar ml30" href="#menu"><img src="images/mobile-dark-nav-icon.svg" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -113,36 +114,36 @@ export default function Home() {
                             <ul>
                                 <li><span>Home</span>
                                     <ul>
-                                        <li><a href="/">Home</a></li>
+                                        <li><Link href="/">Home</Link></li>
                                     </ul>
                                 </li>
                                 <li><span>Browse Jobs</span>
                                     <ul>
                                         <li><span>Services</span>
                                             <ul>
-                                                <li><a href="./page-service-v1">Service v1</a></li>
-                                                <li><a href="./page-service-v2">Service v2</a></li>
-                                                <li><a href="./page-service-v3">Service v3</a></li>
-                                                <li><a href="./page-service-v4">Service v4</a></li>
-                                                <li><a href="./page-service-v5">Service v5</a></li>
-                                                <li><a href="./page-service-v6">Service v6</a></li>
-                                                <li><a href="./page-service-v7">Service v7</a></li>
-                                                <li><a href="./page-service-all">Service All</a></li>
-                                                <li><a href="./page-service-single">Service Single</a></li>
+                                                <li><Link href="./page-service-v1">Service v1</Link></li>
+                                                <li><Link href="./page-service-v2">Service v2</Link></li>
+                                                <li><Link href="./page-service-v3">Service v3</Link></li>
+                                                <li><Link href="./page-service-v4">Service v4</Link></li>
+                                                <li><Link href="./page-service-v5">Service v5</Link></li>
+                                                <li><Link href="./page-service-v6">Service v6</Link></li>
+                                                <li><Link href="./page-service-v7">Service v7</Link></li>
+                                                <li><Link href="./page-service-all">Service All</Link></li>
+                                                <li><Link href="./page-service-single">Service Single</Link></li>
                                             </ul>
                                         </li>
                                         <li><span>Projects</span>
                                             <ul>
-                                                <li><a href="./page-project-v1">Project v1</a></li>
-                                                <li><a href="./page-project-single">Project Single</a></li>
+                                                <li><Link href="./page-project-v1">Project v1</Link></li>
+                                                <li><Link href="./page-project-single">Project Single</Link></li>
                                             </ul>
                                         </li>
                                         <li><span>Job View</span>
                                             <ul>
-                                                <li><a href="./page-job-list-v1">Job list v1</a></li>
-                                                <li><a href="./page-job-list-v2">Job list v2</a></li>
-                                                <li><a href="./page-job-list-v3">Job list V3</a></li>
-                                                <li><a href="./page-job-list-single">Job Single</a></li>
+                                                <li><Link href="./page-job-list-v1">Job list v1</Link></li>
+                                                <li><Link href="./page-job-list-v2">Job list v2</Link></li>
+                                                <li><Link href="./page-job-list-v3">Job list V3</Link></li>
+                                                <li><Link href="./page-job-list-single">Job Single</Link></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -151,75 +152,75 @@ export default function Home() {
                                     <ul>
                                         <li><span>Dashboard</span>
                                             <ul>
-                                                <li><a href="./page-dashboard">Dashboard</a></li>
-                                                <li><a href="./page-dashboard-proposal">Proposal</a></li>
-                                                <li><a href="./page-dashboard-save">Saved</a></li>
-                                                <li><a href="./page-dashboard-message">Message</a></li>
-                                                <li><a href="./page-dashboard-reviews">Reviews</a></li>
-                                                <li><a href="./page-dashboard-invoice">Invoice</a></li>
-                                                <li><a href="./page-dashboard-payouts">Payouts</a></li>
-                                                <li><a href="./page-dashboard-statement">Statement</a></li>
-                                                <li><a href="./page-dashboard-manage-service">Manage Service</a></li>
-                                                <li><a href="./page-dashboard-add-service">Add Services</a></li>
-                                                <li><a href="./page-dashboard-manage-jobs">Manage Jobs</a></li>
-                                                <li><a href="./page-dashboard-manage-project">Manage Project</a></li>
-                                                <li><a href="./page-dashboard-create-project">Create Project</a></li>
-                                                <li><a href="./page-dashboard-profile">My Profile</a></li>
+                                                <li><Link href="./page-dashboard">Dashboard</Link></li>
+                                                <li><Link href="./page-dashboard-proposal">Proposal</Link></li>
+                                                <li><Link href="./page-dashboard-save">Saved</Link></li>
+                                                <li><Link href="./page-dashboard-message">Message</Link></li>
+                                                <li><Link href="./page-dashboard-reviews">Reviews</Link></li>
+                                                <li><Link href="./page-dashboard-invoice">Invoice</Link></li>
+                                                <li><Link href="./page-dashboard-payouts">Payouts</Link></li>
+                                                <li><Link href="./page-dashboard-statement">Statement</Link></li>
+                                                <li><Link href="./page-dashboard-manage-service">Manage Service</Link></li>
+                                                <li><Link href="./page-dashboard-add-service">Add Services</Link></li>
+                                                <li><Link href="./page-dashboard-manage-jobs">Manage Jobs</Link></li>
+                                                <li><Link href="./page-dashboard-manage-project">Manage Project</Link></li>
+                                                <li><Link href="./page-dashboard-create-project">Create Project</Link></li>
+                                                <li><Link href="./page-dashboard-profile">My Profile</Link></li>
                                             </ul>
                                         </li>
                                         <li><span>Employee</span>
                                             <ul>
-                                                <li><a href="./page-employee-v1">Employee V1</a></li>
-                                                <li><a href="./page-employee-v2">Employee V2</a></li>
-                                                <li><a href="./page-employee-single">Employee Single</a></li>
+                                                <li><Link href="./page-employee-v1">Employee V1</Link></li>
+                                                <li><Link href="./page-employee-v2">Employee V2</Link></li>
+                                                <li><Link href="./page-employee-single">Employee Single</Link></li>
                                             </ul>
                                         </li>
                                         <li><span>Freelancer</span>
                                             <ul>
-                                                <li><a href="./page-freelancer-v1">Freelancer V1</a></li>
-                                                <li><a href="./page-freelancer-v2">Freelancer V2</a></li>
-                                                <li><a href="./page-freelancer-v3">Freelancer V3</a></li>
-                                                <li><a href="./page-freelancer-single">Freelancer Single</a></li>
+                                                <li><Link href="./page-freelancer-v1">Freelancer V1</Link></li>
+                                                <li><Link href="./page-freelancer-v2">Freelancer V2</Link></li>
+                                                <li><Link href="./page-freelancer-v3">Freelancer V3</Link></li>
+                                                <li><Link href="./page-freelancer-single">Freelancer Single</Link></li>
                                             </ul>
                                         </li>
-                                        <li><a href="./page-become-seller">Become Seller</a></li>
+                                        <li><Link href="./page-become-seller">Become Seller</Link></li>
                                     </ul>
                                 </li>
                                 <li><span>Pages</span>
                                     <ul>
                                         <li><span>About</span>
                                             <ul>
-                                                <li><a href="./page-about">About v1</a></li>
-                                                <li><a href="./page-about-v2">About v2</a></li>
+                                                <li><Link href="./page-about">About v1</Link></li>
+                                                <li><Link href="./page-about-v2">About v2</Link></li>
                                             </ul>
                                         </li>
                                         <li><span>Shop</span>
                                             <ul>
-                                                <li><a href="./page-shop">List</a></li>
-                                                <li><a href="./page-shop-single">Single</a></li>
-                                                <li><a href="./page-shop-cart">Cart</a></li>
-                                                <li><a href="./page-shop-checkout">Checkout</a></li>
-                                                <li><a href="./page-shop-order">Order</a></li>
+                                                <li><Link href="./page-shop">List</Link></li>
+                                                <li><Link href="./page-shop-single">Single</Link></li>
+                                                <li><Link href="./page-shop-cart">Cart</Link></li>
+                                                <li><Link href="./page-shop-checkout">Checkout</Link></li>
+                                                <li><Link href="./page-shop-order">Order</Link></li>
                                             </ul>
                                         </li>
-                                        <li><a href="./page-contact">Contact</a></li>
-                                        <li><a href="./page-error">404</a></li>
-                                        <li><a href="./page-faq">Faq</a></li>
-                                        <li><a href="./page-help">Help</a></li>
-                                        <li><a href="./page-invoice">Invoices</a></li>
-                                        <li><a href="./page-login">Login</a></li>
-                                        <li><a href="./page-pricing">Pricing</a></li>
-                                        <li><a href="./page-register">Register</a></li>
-                                        <li><a href="./page-terms">Terms</a></li>
-                                        <li><a href="./page-ui-element">UI Elements</a></li>
+                                        <li><Link href="./page-contact">Contact</Link></li>
+                                        <li><Link href="./page-error">404</Link></li>
+                                        <li><Link href="./page-faq">Faq</Link></li>
+                                        <li><Link href="./page-help">Help</Link></li>
+                                        <li><Link href="./page-invoice">Invoices</Link></li>
+                                        <li><Link href="./page-login">Login</Link></li>
+                                        <li><Link href="./page-pricing">Pricing</Link></li>
+                                        <li><Link href="./page-register">Register</Link></li>
+                                        <li><Link href="./page-terms">Terms</Link></li>
+                                        <li><Link href="./page-ui-element">UI Elements</Link></li>
                                     </ul>
                                 </li>
                                 <li><span>Blog</span>
                                     <ul>
-                                        <li><a href="./page-blog-v1">List V1</a></li>
-                                        <li><a href="./page-blog-v2">List V2</a></li>
-                                        <li><a href="./page-blog-v3">List V3</a></li>
-                                        <li><a href="./page-blog-single">Single</a></li>
+                                        <li><Link href="./page-blog-v1">List V1</Link></li>
+                                        <li><Link href="./page-blog-v2">List V2</Link></li>
+                                        <li><Link href="./page-blog-v3">List V3</Link></li>
+                                        <li><Link href="./page-blog-single">Single</Link></li>
                                     </ul>
                                 </li>
                                 {/* <!-- Only for Mobile View --> */}
@@ -294,13 +295,13 @@ export default function Home() {
                                             </div>
                                             <div className="d-block d-md-flex mt30 banner-text animate-up-4">
                                                 <p className="hero-text fz15 me-2 mb-0 text">Popular Searches</p>
-                                                <a className="text" href="#"> Designer,</a>
-                                                <a className="text" href="#"> Developer,</a>
-                                                <a className="text" href="#"> Web,</a>
-                                                <a className="text" href="#"> IOS,</a>
-                                                <a className="text" href="#"> PHP,</a>
-                                                <a className="text" href="#"> Senior,</a>
-                                                <a className="text" href="#"> Engineer</a>
+                                                <Link className="text" href="#"> Designer,</Link>
+                                                <Link className="text" href="#"> Developer,</Link>
+                                                <Link className="text" href="#"> Web,</Link>
+                                                <Link className="text" href="#"> IOS,</Link>
+                                                <Link className="text" href="#"> PHP,</Link>
+                                                <Link className="text" href="#"> Senior,</Link>
+                                                <Link className="text" href="#"> Engineer</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -396,13 +397,13 @@ export default function Home() {
                                     </div>
                                     <div className="col-lg-3">
                                         <div className="text-start text-lg-end mb-3">
-                                            <a className="ud-btn2" href="./page-service-v1">All Categories<i className="fal fa-arrow-right-long dark-color"></i></a>
+                                            <Link className="ud-btn2" href="./page-service-v1">All Categories<i className="fal fa-arrow-right-long dark-color"></i></Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row wow fadeInUp" data-wow-delay="300ms">
                                     <div className="col-sm-6 col-lg-3">
-                                        <a href="./page-service-v1">
+                                        <Link href="./page-service-v1">
                                             <div className="position-relative mb50 mb20-md d-flex align-items-center">
                                                 <div className="city-img flex-shrink-0"><img className="bdrs4" src="images/listings/ct-s-1.jpg" alt="" /></div>
                                                 <div className="flex-shrink-1 ms-3">
@@ -410,10 +411,10 @@ export default function Home() {
                                                     <p className="mb-0">1.853 skills</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col-sm-6 col-lg-3">
-                                        <a href="./page-service-v1">
+                                        <Link href="./page-service-v1">
                                             <div className="position-relative mb50 mb20-md d-flex align-items-center">
                                                 <div className="city-img flex-shrink-0"><img className="bdrs4" src="images/listings/ct-s-2.jpg" alt="" /></div>
                                                 <div className="flex-shrink-1 ms-3">
@@ -421,10 +422,10 @@ export default function Home() {
                                                     <p className="mb-0">1.853 skills</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col-sm-6 col-lg-3">
-                                        <a href="./page-service-v1">
+                                        <Link href="./page-service-v1">
                                             <div className="position-relative mb50 mb20-md d-flex align-items-center">
                                                 <div className="city-img flex-shrink-0"><img className="bdrs4" src="images/listings/ct-s-3.jpg" alt="" /></div>
                                                 <div className="flex-shrink-1 ms-3">
@@ -432,10 +433,10 @@ export default function Home() {
                                                     <p className="mb-0">1.853 skills</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col-sm-6 col-lg-3">
-                                        <a href="./page-service-v1">
+                                        <Link href="./page-service-v1">
                                             <div className="position-relative mb50 mb20-md d-flex align-items-center">
                                                 <div className="city-img flex-shrink-0"><img className="bdrs4" src="images/listings/ct-s-4.jpg" alt="" /></div>
                                                 <div className="flex-shrink-1 ms-3">
@@ -443,10 +444,10 @@ export default function Home() {
                                                     <p className="mb-0">1.853 skills</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col-sm-6 col-lg-3">
-                                        <a href="./page-service-v1">
+                                        <Link href="./page-service-v1">
                                             <div className="position-relative mb50 mb20-md d-flex align-items-center">
                                                 <div className="city-img flex-shrink-0"><img className="bdrs4" src="images/listings/ct-s-5.jpg" alt="" /></div>
                                                 <div className="flex-shrink-1 ms-3">
@@ -454,10 +455,10 @@ export default function Home() {
                                                     <p className="mb-0">1.853 skills</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col-sm-6 col-lg-3">
-                                        <a href="./page-service-v1">
+                                        <Link href="./page-service-v1">
                                             <div className="position-relative mb50 mb20-md d-flex align-items-center">
                                                 <div className="city-img flex-shrink-0"><img className="bdrs4" src="images/listings/ct-s-6.jpg" alt="" /></div>
                                                 <div className="flex-shrink-1 ms-3">
@@ -465,10 +466,10 @@ export default function Home() {
                                                     <p className="mb-0">1.853 skills</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col-sm-6 col-lg-3">
-                                        <a href="./page-service-v1">
+                                        <Link href="./page-service-v1">
                                             <div className="position-relative mb50 mb20-md d-flex align-items-center">
                                                 <div className="city-img flex-shrink-0"><img className="bdrs4" src="images/listings/ct-s-7.jpg" alt="" /></div>
                                                 <div className="flex-shrink-1 ms-3">
@@ -476,10 +477,10 @@ export default function Home() {
                                                     <p className="mb-0">1.853 skills</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col-sm-6 col-lg-3">
-                                        <a href="./page-service-v1">
+                                        <Link href="./page-service-v1">
                                             <div className="position-relative mb50 mb20-md d-flex align-items-center">
                                                 <div className="city-img flex-shrink-0"><img className="bdrs4" src="images/listings/ct-s-8.jpg" alt="" /></div>
                                                 <div className="flex-shrink-1 ms-3">
@@ -487,7 +488,7 @@ export default function Home() {
                                                     <p className="mb-0">1.853 skills</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -537,22 +538,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-17.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will design modern websites in figma or adobe xd</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will design modern websites in figma or adobe xd</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-1.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -580,22 +581,22 @@ export default function Home() {
                                                                     </div>
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Art & Illustration</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will create modern flat design illustration</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will create modern flat design illustration</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-2.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Ali Tufan</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -610,22 +611,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-19.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -640,22 +641,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-20.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -669,22 +670,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-21.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -698,22 +699,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-22.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -731,22 +732,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-17.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will design modern websites in figma or adobe xd</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will design modern websites in figma or adobe xd</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-1.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -773,22 +774,22 @@ export default function Home() {
                                                                     </div>
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Art & Illustration</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will create modern flat design illustration</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will create modern flat design illustration</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-2.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Ali Tufan</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -802,22 +803,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-19.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -831,22 +832,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-20.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -860,22 +861,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-21.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -889,22 +890,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-22.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -922,22 +923,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-17.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will design modern websites in figma or adobe xd</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will design modern websites in figma or adobe xd</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-1.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -964,22 +965,22 @@ export default function Home() {
                                                                     </div>
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Art & Illustration</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will create modern flat design illustration</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will create modern flat design illustration</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-2.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Ali Tufan</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -993,22 +994,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-19.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1022,22 +1023,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-20.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1051,22 +1052,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-21.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1080,22 +1081,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-22.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1113,22 +1114,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-17.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will design modern websites in figma or adobe xd</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will design modern websites in figma or adobe xd</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-1.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1155,22 +1156,22 @@ export default function Home() {
                                                                     </div>
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Art & Illustration</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will create modern flat design illustration</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will create modern flat design illustration</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-2.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Ali Tufan</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1184,22 +1185,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-19.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1213,22 +1214,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-20.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1242,22 +1243,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-21.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1271,22 +1272,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-22.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1304,22 +1305,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-17.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will design modern websites in figma or adobe xd</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will design modern websites in figma or adobe xd</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-1.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1346,22 +1347,22 @@ export default function Home() {
                                                                     </div>
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Art & Illustration</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will create modern flat design illustration</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will create modern flat design illustration</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-2.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Ali Tufan</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1375,22 +1376,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-19.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1404,22 +1405,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-20.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1433,22 +1434,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-21.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                                    <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                                    <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1462,22 +1463,22 @@ export default function Home() {
                                                                     <img className="w-100" src="images/listings/g-22.jpg" alt="" />
                                                                 </div>
                                                                 <div className="list-content flex-grow-1 ms-1">
-                                                                    <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                                    <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                                     <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                                    <h5 className="list-title"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                                    <h5 className="list-title"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                                     <div className="review-meta d-flex align-items-center">
                                                                         <i className="fas fa-star fz10 review-color me-2"></i>
                                                                         <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                                     </div>
                                                                     <hr className="my-2" />
                                                                     <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                                        <a href="#">
+                                                                        <Link href="#">
                                                                             <span className="position-relative mr10">
                                                                                 <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                                 <span className="online-badge"></span>
                                                                             </span>
                                                                             <span className="fz14">Wanda Runo</span>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="budget">
                                                                             <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                                         </div>
@@ -1619,7 +1620,7 @@ export default function Home() {
                                                 <div className="tab-pane fade" id="pills-1st" role="tabpanel" aria-labelledby="pills-1st-tab">
                                                     <div className="testi-content text-md-center">
                                                         <span className="icon fas fa-quote-left"></span>
-                                                        <h4 className="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
+                                                        <h4 className="testi-text">&quot;Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. &quot;</h4>
                                                         <h6 className="name">Ali Tufan</h6>
                                                         <p className="design">Product Manager, Apple Inc</p>
                                                     </div>
@@ -1627,7 +1628,7 @@ export default function Home() {
                                                 <div className="tab-pane fade show active" id="pills-2nd" role="tabpanel" aria-labelledby="pills-2nd-tab">
                                                     <div className="testi-content text-md-center">
                                                         <span className="icon fas fa-quote-left"></span>
-                                                        <h4 className="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
+                                                        <h4 className="testi-text">&quot;Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. &quot;</h4>
                                                         <h6 className="name">Ali Tufan</h6>
                                                         <p className="design">Product Manager, Apple Inc</p>
                                                     </div>
@@ -1635,7 +1636,7 @@ export default function Home() {
                                                 <div className="tab-pane fade" id="pills-3rd" role="tabpanel" aria-labelledby="pills-3rd-tab">
                                                     <div className="testi-content text-md-center">
                                                         <span className="icon fas fa-quote-left"></span>
-                                                        <h4 className="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
+                                                        <h4 className="testi-text">&quot;Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. &quot;</h4>
                                                         <h6 className="name">Ali Tufan</h6>
                                                         <p className="design">Product Manager, Apple Inc</p>
                                                     </div>
@@ -1643,7 +1644,7 @@ export default function Home() {
                                                 <div className="tab-pane fade" id="pills-4th" role="tabpanel" aria-labelledby="pills-4th-tab">
                                                     <div className="testi-content text-md-center">
                                                         <span className="icon fas fa-quote-left"></span>
-                                                        <h4 className="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
+                                                        <h4 className="testi-text">&quot;Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. &quot;</h4>
                                                         <h6 className="name">Ali Tufan</h6>
                                                         <p className="design">Product Manager, Apple Inc</p>
                                                     </div>
@@ -1651,7 +1652,7 @@ export default function Home() {
                                                 <div className="tab-pane fade" id="pills-5th" role="tabpanel" aria-labelledby="pills-5th-tab">
                                                     <div className="testi-content text-md-center">
                                                         <span className="icon fas fa-quote-left"></span>
-                                                        <h4 className="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
+                                                        <h4 className="testi-text">&quot;Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. &quot;</h4>
                                                         <h6 className="name">Ali Tufan</h6>
                                                         <p className="design">Product Manager, Apple Inc</p>
                                                     </div>
@@ -1694,7 +1695,7 @@ export default function Home() {
                                     </div>
                                     <div className="col-lg-3">
                                         <div className="text-start text-lg-end mb-4 mb-lg-2">
-                                            <a className="ud-btn2 text-white" href="page-service-v1">All Services<i className="fal fa-arrow-right-long"></i></a>
+                                            <Link className="ud-btn2 text-white" href="page-service-v1">All Services<i className="fal fa-arrow-right-long"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -1705,24 +1706,24 @@ export default function Home() {
                                                 <div className="listing-style1 default-box-shadow1 border-0">
                                                     <div className="list-thumb">
                                                         <img className="w-100" src="images/listings/g-1.jpg" alt="" />
-                                                        <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                        <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                     </div>
                                                     <div className="list-content">
                                                         <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                        <h5 className="list-title"><a href="./page-services-single">I will design modern websites in figma or adobe xd</a></h5>
+                                                        <h5 className="list-title"><Link href="./page-services-single">I will design modern websites in figma or adobe xd</Link></h5>
                                                         <div className="review-meta d-flex align-items-center">
                                                             <i className="fas fa-star fz10 review-color me-2"></i>
                                                             <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                         </div>
                                                         <hr className="my-2" />
                                                         <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                            <a className="d-flex" href="#">
+                                                            <Link className="d-flex" href="#">
                                                                 <span className="position-relative mr10">
                                                                     <img className="rounded-circle wa" src="images/team/fl-s-1.png" alt="Freelancer Photo" />
                                                                     <span className="online-badges"></span>
                                                                 </span>
                                                                 <span className="fz14">Wanda Runo</span>
-                                                            </a>
+                                                            </Link>
                                                             <div className="budget">
                                                                 <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                             </div>
@@ -1734,24 +1735,24 @@ export default function Home() {
                                                 <div className="listing-style1 default-box-shadow1 border-0">
                                                     <div className="list-thumb">
                                                         <img className="w-100" src="images/listings/g-2.jpg" alt="" />
-                                                        <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                        <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                     </div>
                                                     <div className="list-content">
                                                         <p className="list-text body-color fz14 mb-1">Art & Illustration</p>
-                                                        <h5 className="list-title"><a href="./page-services-single">I will create modern flat design illustration</a></h5>
+                                                        <h5 className="list-title"><Link href="./page-services-single">I will create modern flat design illustration</Link></h5>
                                                         <div className="review-meta d-flex align-items-center">
                                                             <i className="fas fa-star fz10 review-color me-2"></i>
                                                             <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                         </div>
                                                         <hr className="my-2" />
                                                         <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                            <a className="d-flex" href="#">
+                                                            <Link className="d-flex" href="#">
                                                                 <span className="position-relative mr10">
                                                                     <img className="rounded-circle wa" src="images/team/fl-s-2.png" alt="Freelancer Photo" />
                                                                     <span className="online-badges"></span>
                                                                 </span>
                                                                 <span className="fz14">Ali Tufan</span>
-                                                            </a>
+                                                            </Link>
                                                             <div className="budget">
                                                                 <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                             </div>
@@ -1763,24 +1764,24 @@ export default function Home() {
                                                 <div className="listing-style1 default-box-shadow1 border-0">
                                                     <div className="list-thumb">
                                                         <img className="w-100" src="images/listings/g-3.jpg" alt="" />
-                                                        <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                        <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                     </div>
                                                     <div className="list-content">
                                                         <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                        <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                        <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                         <div className="review-meta d-flex align-items-center">
                                                             <i className="fas fa-star fz10 review-color me-2"></i>
                                                             <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                         </div>
                                                         <hr className="my-2" />
                                                         <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                            <a className="d-flex" href="#">
+                                                            <Link className="d-flex" href="#">
                                                                 <span className="position-relative mr10">
                                                                     <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                     <span className="online-badges"></span>
                                                                 </span>
                                                                 <span className="fz14">Wanda Runo</span>
-                                                            </a>
+                                                            </Link>
                                                             <div className="budget">
                                                                 <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                             </div>
@@ -1792,24 +1793,24 @@ export default function Home() {
                                                 <div className="listing-style1 default-box-shadow1 border-0">
                                                     <div className="list-thumb">
                                                         <img className="w-100" src="images/listings/g-4.jpg" alt="" />
-                                                        <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                        <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                     </div>
                                                     <div className="list-content">
                                                         <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                        <h5 className="list-title line-clamp2"><a href="./page-services-single">I will do mobile app development for ios and android</a></h5>
+                                                        <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will do mobile app development for ios and android</Link></h5>
                                                         <div className="review-meta d-flex align-items-center">
                                                             <i className="fas fa-star fz10 review-color me-2"></i>
                                                             <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                         </div>
                                                         <hr className="my-2" />
                                                         <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                            <a className="d-flex" href="#">
+                                                            <Link className="d-flex" href="#">
                                                                 <span className="position-relative mr10">
                                                                     <img className="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo" />
                                                                     <span className="online-badges"></span>
                                                                 </span>
                                                                 <span className="fz14">Wanda Runo</span>
-                                                            </a>
+                                                            </Link>
                                                             <div className="budget">
                                                                 <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                             </div>
@@ -1821,24 +1822,24 @@ export default function Home() {
                                                 <div className="listing-style1 default-box-shadow1 border-0">
                                                     <div className="list-thumb">
                                                         <img className="w-100" src="images/listings/g-5.jpg" alt="" />
-                                                        <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                        <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                     </div>
                                                     <div className="list-content">
                                                         <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                        <h5 className="list-title"><a href="./page-services-single">I will design modern websites in figma or adobe xd</a></h5>
+                                                        <h5 className="list-title"><Link href="./page-services-single">I will design modern websites in figma or adobe xd</Link></h5>
                                                         <div className="review-meta d-flex align-items-center">
                                                             <i className="fas fa-star fz10 review-color me-2"></i>
                                                             <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                         </div>
                                                         <hr className="my-2" />
                                                         <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                            <a className="d-flex" href="#">
+                                                            <Link className="d-flex" href="#">
                                                                 <span className="position-relative mr10">
                                                                     <img className="rounded-circle" src="images/team/fl-s-1.png" alt="Freelancer Photo" />
                                                                     <span className="online-badges"></span>
                                                                 </span>
                                                                 <span className="fz14">Wanda Runo</span>
-                                                            </a>
+                                                            </Link>
                                                             <div className="budget">
                                                                 <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                             </div>
@@ -1850,24 +1851,24 @@ export default function Home() {
                                                 <div className="listing-style1 default-box-shadow1 border-0">
                                                     <div className="list-thumb">
                                                         <img className="w-100" src="images/listings/g-6.jpg" alt="" />
-                                                        <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                        <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                     </div>
                                                     <div className="list-content">
                                                         <p className="list-text body-color fz14 mb-1">Web & App Design</p>
-                                                        <h5 className="list-title"><a href="./page-services-single">I will design modern websites in figma or adobe xd</a></h5>
+                                                        <h5 className="list-title"><Link href="./page-services-single">I will design modern websites in figma or adobe xd</Link></h5>
                                                         <div className="review-meta d-flex align-items-center">
                                                             <i className="fas fa-star fz10 review-color me-2"></i>
                                                             <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                         </div>
                                                         <hr className="my-2" />
                                                         <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                            <a className="d-flex" href="#">
+                                                            <Link className="d-flex" href="#">
                                                                 <span className="position-relative mr10">
                                                                     <img className="rounded-circle" src="images/team/fl-s-2.png" alt="Freelancer Photo" />
                                                                     <span className="online-badges"></span>
                                                                 </span>
                                                                 <span className="fz14">Wanda Runo</span>
-                                                            </a>
+                                                            </Link>
                                                             <div className="budget">
                                                                 <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                             </div>
@@ -1879,24 +1880,24 @@ export default function Home() {
                                                 <div className="listing-style1 default-box-shadow1 border-0">
                                                     <div className="list-thumb">
                                                         <img className="w-100" src="images/listings/g-7.jpg" alt="" />
-                                                        <a href="#" className="listing-fav fz12"><span className="far fa-heart"></span></a>
+                                                        <Link href="#" className="listing-fav fz12"><span className="far fa-heart"></span></Link>
                                                     </div>
                                                     <div className="list-content">
                                                         <p className="list-text body-color fz14 mb-1">Design & Creative</p>
-                                                        <h5 className="list-title line-clamp2"><a href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                                                        <h5 className="list-title line-clamp2"><Link href="./page-services-single">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</Link></h5>
                                                         <div className="review-meta d-flex align-items-center">
                                                             <i className="fas fa-star fz10 review-color me-2"></i>
                                                             <p className="mb-0 body-color fz14"><span className="dark-color me-2">4.82</span>94 reviews</p>
                                                         </div>
                                                         <hr className="my-2" />
                                                         <div className="list-meta d-flex justify-content-between align-items-center mt15">
-                                                            <a className="d-flex" href="#">
+                                                            <Link className="d-flex" href="#">
                                                                 <span className="position-relative mr10">
                                                                     <img className="rounded-circle" src="images/team/fl-s-3.png" alt="Freelancer Photo" />
                                                                     <span className="online-badges"></span>
                                                                 </span>
                                                                 <span className="fz14">Wanda Runo</span>
-                                                            </a>
+                                                            </Link>
                                                             <div className="budget">
                                                                 <p className="mb-0 body-color">Starting at<span className="fz17 fw500 dark-color ms-1">$983</span></p>
                                                             </div>
@@ -1922,7 +1923,7 @@ export default function Home() {
                                     </div>
                                     <div className="col-lg-3">
                                         <div className="text-start text-lg-end mb-4 mb-lg-2">
-                                            <a className="ud-btn2" href="page-blog-v1">Browse All<i className="fal fa-arrow-right-long"></i></a>
+                                            <Link className="ud-btn2" href="page-blog-v1">Browse All<i className="fal fa-arrow-right-long"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -1931,8 +1932,8 @@ export default function Home() {
                                         <div className="blog-style1 at-home6">
                                             <div className="blog-img bdrs4 over-flowhidden"><img className="w-100" src="images/blog/blog-1.jpg" alt="" /></div>
                                             <div className="blog-content px-0 pb-0">
-                                                <a className="date" href="#">December 2, 2022</a>
-                                                <h4 className="title mt-1"><a href="./page-blog-single">Start an online business and work from home</a></h4>
+                                                <Link className="date" href="#">December 2, 2022</Link>
+                                                <h4 className="title mt-1"><Link href="./page-blog-single">Start an online business and work from home</Link></h4>
                                                 <p className="text mb-0">A complete guide to starting a small <br className="d-none d-md-block" /> business online</p>
                                             </div>
                                         </div>
@@ -1941,8 +1942,8 @@ export default function Home() {
                                         <div className="blog-style1 at-home6">
                                             <div className="blog-img bdrs4 over-flowhidden"><img className="w-100" src="images/blog/blog-2.jpg" alt="" /></div>
                                             <div className="blog-content px-0 pb-0">
-                                                <a className="date" href="#">December 2, 2022</a>
-                                                <h4 className="title mt-1"><a href="./page-blog-single">Front becomes an official Instagram Marketing Partner</a></h4>
+                                                <Link className="date" href="#">December 2, 2022</Link>
+                                                <h4 className="title mt-1"><Link href="./page-blog-single">Front becomes an official Instagram Marketing Partner</Link></h4>
                                                 <p className="text mb-0">A complete guide to starting a small <br className="d-none d-md-block" /> business online</p>
                                             </div>
                                         </div>
@@ -1951,8 +1952,8 @@ export default function Home() {
                                         <div className="blog-style1 at-home6">
                                             <div className="blog-img bdrs4 over-flowhidden"><img className="w-100" src="images/blog/blog-3.jpg" alt="" /></div>
                                             <div className="blog-content px-0 pb-0">
-                                                <a className="date" href="#">December 2, 2022</a>
-                                                <h4 className="title mt-1"><a href="./page-blog-single">Engendering a culture of professional development</a></h4>
+                                                <Link className="date" href="#">December 2, 2022</Link>
+                                                <h4 className="title mt-1"><Link href="./page-blog-single">Engendering a culture of professional development</Link></h4>
                                                 <p className="text mb-0">A complete guide to starting a small <br className="d-none d-md-block" /> business online</p>
                                             </div>
                                         </div>
@@ -1961,8 +1962,8 @@ export default function Home() {
                                         <div className="blog-style1 at-home6">
                                             <div className="blog-img bdrs4 over-flowhidden"><img className="w-100" src="images/blog/blog-4.jpg" alt="" /></div>
                                             <div className="blog-content px-0 pb-0">
-                                                <a className="date" href="#">December 2, 2022</a>
-                                                <h4 className="title mt-1"><a href="./page-blog-single">Increasing engagement with Instagram</a></h4>
+                                                <Link className="date" href="#">December 2, 2022</Link>
+                                                <h4 className="title mt-1"><Link href="./page-blog-single">Increasing engagement with Instagram</Link></h4>
                                                 <p className="text mb-0">A complete guide to starting a small <br className="d-none d-md-block" /> business online</p>
                                             </div>
                                         </div>
@@ -2028,19 +2029,19 @@ export default function Home() {
                                 <div className="row bb-white-light pb10 mb60">
                                     <div className="col-md-7">
                                         <div className="d-block text-center text-md-start justify-content-center justify-content-md-start d-md-flex align-items-center mb-3 mb-md-0">
-                                            <a className="fz17 fw500 text-white mr15-md mr30" href="#">Terms of Service</a>
-                                            <a className="fz17 fw500 text-white mr15-md mr30" href="#">Privacy Policy</a>
-                                            <a className="fz17 fw500 text-white" href="#">Site Map</a>
+                                            <Link className="fz17 fw500 text-white mr15-md mr30" href="#">Terms of Service</Link>
+                                            <Link className="fz17 fw500 text-white mr15-md mr30" href="#">Privacy Policy</Link>
+                                            <Link className="fz17 fw500 text-white" href="#">Site Map</Link>
                                         </div>
                                     </div>
                                     <div className="col-md-5">
                                         <div className="social-widget text-center text-md-end">
                                             <div className="social-style1">
-                                                <a className="text-white me-2 fw500 fz17" href="#">Follow us</a>
-                                                <a href="#"><i className="fab fa-facebook-f list-inline-item"></i></a>
-                                                <a href="#"><i className="fab fa-twitter list-inline-item"></i></a>
-                                                <a href="#"><i className="fab fa-instagram list-inline-item"></i></a>
-                                                <a href="#"><i className="fab fa-linkedin-in list-inline-item"></i></a>
+                                                <Link className="text-white me-2 fw500 fz17" href="#">Follow us</Link>
+                                                <Link href="#"><i className="fab fa-facebook-f list-inline-item"></i></Link>
+                                                <Link href="#"><i className="fab fa-twitter list-inline-item"></i></Link>
+                                                <Link href="#"><i className="fab fa-instagram list-inline-item"></i></Link>
+                                                <Link href="#"><i className="fab fa-linkedin-in list-inline-item"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -2050,12 +2051,12 @@ export default function Home() {
                                         <div className="link-style1 mb-4 mb-sm-5">
                                             <h5 className="text-white mb15">About</h5>
                                             <div className="link-list">
-                                                <a href="#">Careers</a>
-                                                <a href="#">Press & News</a>
-                                                <a href="#">Partnerships</a>
-                                                <a href="#">Privacy Policy</a>
-                                                <a href="#">Terms of Service</a>
-                                                <a href="#">Investor Relations</a>
+                                                <Link href="#">Careers</Link>
+                                                <Link href="#">Press & News</Link>
+                                                <Link href="#">Partnerships</Link>
+                                                <Link href="#">Privacy Policy</Link>
+                                                <Link href="#">Terms of Service</Link>
+                                                <Link href="#">Investor Relations</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -2063,15 +2064,15 @@ export default function Home() {
                                         <div className="link-style1 mb-4 mb-sm-5">
                                             <h5 className="text-white mb15">Categories</h5>
                                             <ul className="ps-0">
-                                                <li><a href="#">Graphics & Design</a></li>
-                                                <li><a href="#">Digital Marketing</a></li>
-                                                <li><a href="#">Writing & Translation</a></li>
-                                                <li><a href="#">Video & Animation</a></li>
-                                                <li><a href="#">Music & Audio</a></li>
-                                                <li><a href="#">Programming & Tech</a></li>
-                                                <li><a href="#">Data</a></li>
-                                                <li><a href="#">Business</a></li>
-                                                <li><a href="#">Lifestyle</a></li>
+                                                <li><Link href="#">Graphics & Design</Link></li>
+                                                <li><Link href="#">Digital Marketing</Link></li>
+                                                <li><Link href="#">Writing & Translation</Link></li>
+                                                <li><Link href="#">Video & Animation</Link></li>
+                                                <li><Link href="#">Music & Audio</Link></li>
+                                                <li><Link href="#">Programming & Tech</Link></li>
+                                                <li><Link href="#">Data</Link></li>
+                                                <li><Link href="#">Business</Link></li>
+                                                <li><Link href="#">Lifestyle</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -2079,10 +2080,10 @@ export default function Home() {
                                         <div className="link-style1 mb-4 mb-sm-5">
                                             <h5 className="text-white mb15">Support</h5>
                                             <ul className="ps-0">
-                                                <li><a href="#">Help & Support</a></li>
-                                                <li><a href="#">Trust & Safety</a></li>
-                                                <li><a href="#">Selling on Kaiketsu</a></li>
-                                                <li><a href="#">Buying on Kaiketsu</a></li>
+                                                <li><Link href="#">Help & Support</Link></li>
+                                                <li><Link href="#">Trust & Safety</Link></li>
+                                                <li><Link href="#">Selling on Kaiketsu</Link></li>
+                                                <li><Link href="#">Buying on Kaiketsu</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -2101,14 +2102,14 @@ export default function Home() {
                                                 <h5 className="title text-white mb20">Apps</h5>
                                                 <div className="row mb-4 mb-lg-5">
                                                     <div className="col-lg-12">
-                                                        <a className="app-list d-flex align-items-center mb10" href="#">
+                                                        <Link className="app-list d-flex align-items-center mb10" href="#">
                                                             <i className="fab fa-apple fz17 mr15"></i>
                                                             <h6 className="app-title fz15 fw400 mb-0">iOS App</h6>
-                                                        </a>
-                                                        <a className="app-list d-flex align-items-center" href="#">
+                                                        </Link>
+                                                        <Link className="app-list d-flex align-items-center" href="#">
                                                             <i className="fab fa-google-play fz15 mr15"></i>
                                                             <h6 className="app-title fz15 fw400 mb-0">Android App</h6>
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2148,11 +2149,11 @@ export default function Home() {
                                 </div>
                             </div>
                         </section>
-                        <a className="scrollToHome at-home2" href="#"><i className="fas fa-angle-up"></i></a>
+                        <Link className="scrollToHome at-home2" href="#"><i className="fas fa-angle-up"></i></Link>
                     </div>
                 </div>
                 {/* <!-- Wrapper End -->  */}
-                <script src="./js/jquery-3.6.4.min.js"></script>
+                {/* <script src="./js/jquery-3.6.4.min.js"></script>
                 <script src="./js/jquery-migrate-3.0.0.min.js"></script>
                 <script src="./js/popper.min.js"></script>
                 <script src="./js/bootstrap.min.js"></script>
@@ -2163,9 +2164,9 @@ export default function Home() {
                 <script src="./js/wow.min.js"></script>
                 <script src="./js/owl.js"></script>
                 <script src="./js/jquery.counterup.js"></script>
-                <script src="./js/isotop.js"></script>
+                <script src="./js/isotop.js"></script> */}
                 {/* <!-- Custom script for all pages --> */}
-                <script src="js/script.js"></script>
+                {/* <script src="js/script.js"></script> */}
             </div>
         </>
     )
