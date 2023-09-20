@@ -9,7 +9,7 @@ export default function Register() {
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="keywords" content="bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hiring, job board, job portal, job posting, jobs marketplace, peopleperhour, proposals, sell services, upwork" />
-                <meta name="description" content="freelance.kaiketsu.tech - Freelance Marketplace" />
+                <meta name="description" content="Freelance Marketplace | Resolve Technologies" />
                 <meta name="CreativeLayers" content="ATFN" />
                 {/* <!-- css file --> */}
                 <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -25,7 +25,7 @@ export default function Register() {
                 {/* <!-- Responsive stylesheet --> */}
                 <link rel="stylesheet" href="css/responsive.css" />
                 {/* <!-- Title --> */}
-                <title>freelance.kaiketsu.tech - Freelance Marketplace</title>
+                <title>Freelance Marketplace | Resolve Technologies</title>
                 {/* <!-- Favicon --> */}
                 <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
                 <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" />
@@ -834,7 +834,7 @@ export default function Register() {
                                 <div className="row align-items-center">
                                     <div className="col-md-6">
                                         <div className="text-center text-lg-start">
-                                            <p className="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© 2023 Kaiketsu. All Rights Reserved.</p>
+                                            <p className="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© 2023 Resolve Technologies. All Rights Reserved.</p>
                                         </div>
                                     </div>
                                     <div className="col-md-6">

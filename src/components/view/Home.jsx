@@ -9,7 +9,7 @@ export default function Home() {
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="keywords" content="bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hiring, job board, job portal, job posting, jobs marketplace, peopleperhour, proposals, sell services, upwork" />
-                <meta name="description" content="freelance.kaiketsu.tech - Freelance Marketplace" />
+                <meta name="description" content="Freelance Marketplace | Resolve Technologies" />
                 <meta name="CreativeLayers" content="ATFN" />
                 {/* <!-- css file --> */}
                 <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -27,7 +27,7 @@ export default function Home() {
                 {/* <!-- Responsive stylesheet --> */}
                 <link rel="stylesheet" href="/css/responsive.css" />
                 {/* <!-- Title --> */}
-                <title>freelance.kaiketsu.tech - Freelance Marketplace</title>
+                <title>Freelance Marketplace | Resolve Technologies</title>
                 {/* <!-- Favicon --> */}
                 <link href="./images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
                 <link href="./images/favicon.ico" sizes="128x128" rel="shortcut icon" />
@@ -236,7 +236,7 @@ export default function Home() {
                                     <div className="col-lg-6">
                                         <div className="pr50 pr0-xl mb30-md position-relative">
                                             <h1 className="animate-up-1 mb15 text-dark">With talented <span className="text-thm">freelancers</span> <br className="d-none d-xl-block" />do more work.</h1>
-                                            <p className="animate-up-2 ff-heading mb30 text">Millions of people use Kaiketsu&apos;s Freelance Marketplace to turn their ideas into reality.</p>
+                                            <p className="animate-up-2 ff-heading mb30 text">Millions of people use Resolve&apos;s Freelance Marketplace to turn their ideas into reality.</p>
                                             <div className="advance-search-tab at-home6 bgc-white bdrs20 p10 position-relative zi2 animate-up-3">
                                                 <div className="row">
                                                     <div className="col-md-9 col-lg-8 col-xl-9">
@@ -2082,8 +2082,8 @@ export default function Home() {
                                             <ul className="ps-0">
                                                 <li><Link href="#">Help & Support</Link></li>
                                                 <li><Link href="#">Trust & Safety</Link></li>
-                                                <li><Link href="#">Selling on Kaiketsu</Link></li>
-                                                <li><Link href="#">Buying on Kaiketsu</Link></li>
+                                                <li><Link href="#">Selling</Link></li>
+                                                <li><Link href="#">Buying</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -2121,7 +2121,7 @@ export default function Home() {
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="text-center text-lg-start">
-                                            <p className="copyright-text mb-0 text-white-light ff-heading">© 2023 Kaiketsu. All Rights Reserved.</p>
+                                            <p className="copyright-text mb-0 text-white-light ff-heading">© 2023 Resolve Technologies. All Rights Reserved.</p>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
